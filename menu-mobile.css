@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+article {
+    width: 320px;
+    height: 100vh;
+    background-color: white;
+    box-shadow: 16px 0px 52px 0px #0e185033;
+    display: grid;
+    padding: 20px 24px;
+    font-family: "TT Lakes", sans-serif;
+    font-size: 16px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 40px 100px 1fr;
+    column-gap: 16px;
+}
+
+.scr {
+    margin-left: auto;
+    background-image: url("scr.png");
+}
+
+.scr,
+.close {
+    margin-top: 3px;
+}
+
+.close {
+    background-image: url("close.png");
+}
+
+.list {
+    display: grid;
+    row-gap: 32px;
+}
+
+.list__imput {
+    list-style-type: none;
+}
+
+.social {
+    display: grid;
+    column-gap: 16px;
+    grid-template-columns: 40px 40px 40px;
+}
+.call {
+    background-image: url("call.png");
+}
+
+.whrite {
+    background-image: url("post.png");
+}
+
+.profile {
+    background-image: url("profile.png");
+}
+
+.lng {
+    background-color: white;
+    border: none;
+}
+
+.post {
+    padding-top: 16px;
+}
+
+.number {
+    font-size: 24px;
+    padding-top: 12px;
+}
+
+.active {
+    color: #7e7e82;
+}
+
+.contacts {
+    display: grid;
+    grid-template-rows: 40px 36px 48px 1fr;
+}
+
+.language {
+    align-self: end;
+}
